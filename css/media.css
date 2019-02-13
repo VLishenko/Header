@@ -1,0 +1,170 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 990px) {
+	.about-company-wrapper {
+		display: flex;
+    flex-wrap: wrap;
+	}
+	.about-company-about {
+		width: 100%;
+	}
+
+	.about-company-right-aside {
+		width: 100%;
+		margin-top: 0;
+	}
+
+	.about-company-navigation {
+		text-align: center;
+		width: calc(100% - 300px);
+	}
+
+	.about-company-about {
+		order: -1;
+		text-align: center;
+	}
+	
+	.about-company-aside ul {
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.about-company-requisites table {
+		max-width: 300px;
+		margin: auto;
+	}
+
+	.about-company-main-office:before,
+	.about-company-testimonials:after {
+		width: 300px;
+		height: 300px;
+	}
+	.about-company-main-office:before {
+		left: -300px;
+	}
+	.about-company-testimonials:after {
+		right: -300px;
+	}
+
+	.about-company-confidence-item {
+		width: 48%;
+		margin-bottom: 10px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 640px) {
+	.about-company-navigation,
+	.about-company-sertificates {
+		display: none;
+	}
+
+	.about-company-requisites {
+		width: 100%;
+    border: 2px solid #eee;
+    border-left: none;
+    border-right: none;
+	}
+	.about-company-requisites table {
+		max-width: none;
+		margin: 0;
+	}
+	.about-company-requisites table .about-company-table-name {
+		text-align: left;
+	}
+	.about-company-requisites tr:not(.about-company-table-name) {
+		display: none;
+	}
+	.about-company-table-name th {
+		cursor: pointer;
+		padding-right: 18px;
+	}
+	.about-company-table-name th:after {
+		display: inline-block;
+	}
+
+	.about-company-map,
+	.about-company-main-office,
+	.about-company-testimonials,
+	.about-company-partners {
+		display: none;
+	}
+
+	.about-company-confidence-item {
+		width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+	}
+	
+	.about-company-confidence-item__ic {
+		width: 50px;
+		float: left;
+	}
+	.about-company-confidence-item__ic span {
+		font-size: 30px;
+		
+	}
+	.about-company-confidence-item__title {
+		width: calc(100% - 50px);
+		padding: 2px 0 10px 0;
+		font-size: 18px;
+	}
+
+	.about-company-confidence h2,
+	.about-company-partners h2 {
+		padding-bottom: 10px;
+	}
+
+	.about-company-requisites {
+		background-color: transparent;
+		margin-bottom: 10px;
+	}
+	.about-company-requisites td,
+	.about-company-requisites th {
+		padding-left: 10px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
